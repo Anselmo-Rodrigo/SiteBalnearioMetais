@@ -1028,6 +1028,17 @@ section {
     .galeria-grid {
         grid-template-columns: repeat(2, 1fr);
     }
+    .sobre-image {
+        display: flex;
+        justify-content: center;
+    }
+
+    .sobre-img {
+        width: 100%;
+        max-width: 350px;
+        height: auto; /* 🔥 ESSENCIAL */
+        margin: 0 auto;
+    }
 }
 
 @media (max-width: 480px) {
